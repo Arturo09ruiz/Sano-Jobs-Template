@@ -2678,8 +2678,11 @@ Align-items: center !important;
 
 }
 .icon-btn-prueba{
-  color: white;
+  color: #5E72E4;
  
+}
+.test-grande{
+  font-size: 14px !important;
 }
 .boton-aling{
   display: flex;
