@@ -2660,6 +2660,11 @@ Align-items: center !important;
   background-color: white !important;
 
 }
+.test{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
 .valeria{
   display: block;
 }
