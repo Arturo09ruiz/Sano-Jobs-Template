@@ -112,7 +112,11 @@ h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-
+.posion{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center!important;
+}
 p {
   margin-top: 0;
   margin-left: 15px;
@@ -2674,14 +2678,16 @@ Align-items: center !important;
 .list-black{
   color: #595966 !important;
   font-weight: bold;
-
-
+}
+.anima{
+  transform: translate(150px);
 }
 .icon-btn-prueba{
   color: #5E72E4;
- 
 }
-
+.mag-auto_version{
+  transform: translate(100px);
+}
 .test-buuton{
   color: white !important;
 }
@@ -2977,12 +2983,29 @@ fieldset:disabled a.btn {
   display: none;
 }
 }
+@media (max-width: 766.98px) {
+  .test_ready{
+  display: none;
+}
+}
+@media (max-width: 991.98px) {
+  .anima{transform: translate(0px);
+}
+}
 @media (max-width: 991.98px) {
   .test-div-view-desk{
   display: none;
 }
 }
+@media (max-width: 766.98px) {
+  .now_problem{
+  display: none;
+}
+}
+.form_round{
+  border-radius: 10000px;
 
+}
 .filter-view{
   display: block;
 }
@@ -7824,7 +7847,6 @@ button.bg-darker:focus {
   .d-lg-none {
     display: none !important;
   }
-
   .d-lg-inline {
     display: inline !important;
   }
